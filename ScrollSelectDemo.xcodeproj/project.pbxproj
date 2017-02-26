@@ -17,6 +17,9 @@
 		651BE5851E6035D0007E0F18 /* ScrollSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5841E6035D0007E0F18 /* ScrollSelectDemoUITests.m */; };
 		651BE5941E6036AF007E0F18 /* SQHeadScrollSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */; };
 		651BE5971E6037A3007E0F18 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */; };
+		65760F1C1E62A1AF00E98511 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F191E62A1AF00E98511 /* 3.mp4 */; };
+		65760F1D1E62A1AF00E98511 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F1A1E62A1AF00E98511 /* 2.mp4 */; };
+		65760F1E1E62A1AF00E98511 /* more.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F1B1E62A1AF00E98511 /* more.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeadScrollSelectView.m; sourceTree = "<group>"; };
 		651BE5951E6037A3007E0F18 /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
 		651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
+		65760F191E62A1AF00E98511 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		65760F1A1E62A1AF00E98511 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		65760F1B1E62A1AF00E98511 /* more.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = more.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		651BE55F1E6035CF007E0F18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65760F191E62A1AF00E98511 /* 3.mp4 */,
+				65760F1A1E62A1AF00E98511 /* 2.mp4 */,
+				65760F1B1E62A1AF00E98511 /* more.mp4 */,
 				651BE5601E6035CF007E0F18 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -256,9 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65760F1D1E62A1AF00E98511 /* 2.mp4 in Resources */,
 				651BE56F1E6035CF007E0F18 /* LaunchScreen.storyboard in Resources */,
 				651BE56C1E6035CF007E0F18 /* Assets.xcassets in Resources */,
 				651BE56A1E6035CF007E0F18 /* Main.storyboard in Resources */,
+				65760F1E1E62A1AF00E98511 /* more.mp4 in Resources */,
+				65760F1C1E62A1AF00E98511 /* 3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +533,7 @@
 				651BE58B1E6035D0007E0F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651BE58C1E6035D0007E0F18 /* Build configuration list for PBXNativeTarget "ScrollSelectDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +542,7 @@
 				651BE58E1E6035D0007E0F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651BE58F1E6035D0007E0F18 /* Build configuration list for PBXNativeTarget "ScrollSelectDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +551,7 @@
 				651BE5911E6035D0007E0F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
