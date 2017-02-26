@@ -20,6 +20,7 @@
     return _AllViewArray[number];
     }
 
+![mp4](https://github.com/Oracimaru/ScrollSelectDemo/blob/master/ScrollSelectDemo/Untitled.gif)
 
 ![mp4](https://github.com/Oracimaru/ScrollSelectDemo/blob/master/ScrollSelectDemo/QQ20170226-132837%402x.png)
 ![mp4](https://github.com/Oracimaru/ScrollSelectDemo/blob/master/ScrollSelectDemo/QQ20170226-140806%402x.png)
