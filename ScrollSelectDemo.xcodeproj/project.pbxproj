@@ -15,6 +15,8 @@
 		651BE56F1E6035CF007E0F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651BE56D1E6035CF007E0F18 /* LaunchScreen.storyboard */; };
 		651BE57A1E6035D0007E0F18 /* ScrollSelectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5791E6035D0007E0F18 /* ScrollSelectDemoTests.m */; };
 		651BE5851E6035D0007E0F18 /* ScrollSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5841E6035D0007E0F18 /* ScrollSelectDemoUITests.m */; };
+		651BE5941E6036AF007E0F18 /* SQHeadScrollSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */; };
+		651BE5971E6037A3007E0F18 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		651BE5801E6035D0007E0F18 /* ScrollSelectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollSelectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651BE5841E6035D0007E0F18 /* ScrollSelectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollSelectDemoUITests.m; sourceTree = "<group>"; };
 		651BE5861E6035D0007E0F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651BE5921E6036AF007E0F18 /* SQHeadScrollSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeadScrollSelectView.h; sourceTree = "<group>"; };
+		651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeadScrollSelectView.m; sourceTree = "<group>"; };
+		651BE5951E6037A3007E0F18 /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				651BE5631E6035CF007E0F18 /* AppDelegate.m */,
 				651BE5651E6035CF007E0F18 /* ViewController.h */,
 				651BE5661E6035CF007E0F18 /* ViewController.m */,
+				651BE5921E6036AF007E0F18 /* SQHeadScrollSelectView.h */,
+				651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */,
+				651BE5951E6037A3007E0F18 /* UIView+frameAdjust.h */,
+				651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */,
 				651BE5681E6035CF007E0F18 /* Main.storyboard */,
 				651BE56B1E6035CF007E0F18 /* Assets.xcassets */,
 				651BE56D1E6035CF007E0F18 /* LaunchScreen.storyboard */,
@@ -275,7 +285,9 @@
 			files = (
 				651BE5671E6035CF007E0F18 /* ViewController.m in Sources */,
 				651BE5641E6035CF007E0F18 /* AppDelegate.m in Sources */,
+				651BE5971E6037A3007E0F18 /* UIView+frameAdjust.m in Sources */,
 				651BE5611E6035CF007E0F18 /* main.m in Sources */,
+				651BE5941E6036AF007E0F18 /* SQHeadScrollSelectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollSelectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhb.ScrollSelectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,9 +448,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollSelectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhb.ScrollSelectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
