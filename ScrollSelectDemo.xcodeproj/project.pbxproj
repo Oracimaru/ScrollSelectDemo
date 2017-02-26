@@ -17,9 +17,10 @@
 		651BE5851E6035D0007E0F18 /* ScrollSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5841E6035D0007E0F18 /* ScrollSelectDemoUITests.m */; };
 		651BE5941E6036AF007E0F18 /* SQHeadScrollSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */; };
 		651BE5971E6037A3007E0F18 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */; };
-		65760F1C1E62A1AF00E98511 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F191E62A1AF00E98511 /* 3.mp4 */; };
-		65760F1D1E62A1AF00E98511 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F1A1E62A1AF00E98511 /* 2.mp4 */; };
-		65760F1E1E62A1AF00E98511 /* more.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65760F1B1E62A1AF00E98511 /* more.mp4 */; };
+		65760F221E62A86B00E98511 /* QQ20170226-132837@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65760F1F1E62A86B00E98511 /* QQ20170226-132837@2x.png */; };
+		65760F231E62A86B00E98511 /* QQ20170226-140821@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65760F201E62A86B00E98511 /* QQ20170226-140821@2x.png */; };
+		65760F241E62A86B00E98511 /* QQ20170226-140806@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65760F211E62A86B00E98511 /* QQ20170226-140806@2x.png */; };
+		65760F261E62ABF200E98511 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65760F251E62ABF200E98511 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +61,10 @@
 		651BE5931E6036AF007E0F18 /* SQHeadScrollSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeadScrollSelectView.m; sourceTree = "<group>"; };
 		651BE5951E6037A3007E0F18 /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
 		651BE5961E6037A3007E0F18 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
-		65760F191E62A1AF00E98511 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
-		65760F1A1E62A1AF00E98511 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
-		65760F1B1E62A1AF00E98511 /* more.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = more.mp4; sourceTree = "<group>"; };
+		65760F1F1E62A86B00E98511 /* QQ20170226-132837@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170226-132837@2x.png"; sourceTree = "<group>"; };
+		65760F201E62A86B00E98511 /* QQ20170226-140821@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170226-140821@2x.png"; sourceTree = "<group>"; };
+		65760F211E62A86B00E98511 /* QQ20170226-140806@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170226-140806@2x.png"; sourceTree = "<group>"; };
+		65760F251E62ABF200E98511 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +135,10 @@
 		651BE55F1E6035CF007E0F18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65760F191E62A1AF00E98511 /* 3.mp4 */,
-				65760F1A1E62A1AF00E98511 /* 2.mp4 */,
-				65760F1B1E62A1AF00E98511 /* more.mp4 */,
+				65760F251E62ABF200E98511 /* Untitled.gif */,
+				65760F1F1E62A86B00E98511 /* QQ20170226-132837@2x.png */,
+				65760F201E62A86B00E98511 /* QQ20170226-140821@2x.png */,
+				65760F211E62A86B00E98511 /* QQ20170226-140806@2x.png */,
 				651BE5601E6035CF007E0F18 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -265,12 +268,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65760F1D1E62A1AF00E98511 /* 2.mp4 in Resources */,
+				65760F231E62A86B00E98511 /* QQ20170226-140821@2x.png in Resources */,
+				65760F221E62A86B00E98511 /* QQ20170226-132837@2x.png in Resources */,
 				651BE56F1E6035CF007E0F18 /* LaunchScreen.storyboard in Resources */,
 				651BE56C1E6035CF007E0F18 /* Assets.xcassets in Resources */,
 				651BE56A1E6035CF007E0F18 /* Main.storyboard in Resources */,
-				65760F1E1E62A1AF00E98511 /* more.mp4 in Resources */,
-				65760F1C1E62A1AF00E98511 /* 3.mp4 in Resources */,
+				65760F241E62A86B00E98511 /* QQ20170226-140806@2x.png in Resources */,
+				65760F261E62ABF200E98511 /* Untitled.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
